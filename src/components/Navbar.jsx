@@ -23,7 +23,10 @@ const Navbar = () => {
         </button>
         <button className='border border-blue-700 rounded-full bg-blue-700 w-25 text-white'>Connect</button>
       </div>
-      <div className='md:hidden'>
+      <div className='flex flex-row md:hidden gap-3'>
+        <button className='border border-black w-7 h-7 rounded-full flex justify-center items-center'>
+          <img className=' w-4.25 h-4.25  ' src={darkphoto} alt="" />
+        </button>
         <button onClick={() => setMenuOpen(!menuOpen)}>
           ☰
         </button>
@@ -43,9 +46,12 @@ const Navbar = () => {
           <p>Our Work</p>
           <p>Testimonial</p>
 
-          <button className='mt-4 border border-blue-700 rounded-full bg-blue-700 px-6 py-2 text-white'>
+          
+            
+            <button className='mt-4 border border-blue-700 rounded-full bg-blue-700 px-6 py-2 text-white w-2/3 '>
             Connect
           </button>
+          
         </div>
       )}
 
