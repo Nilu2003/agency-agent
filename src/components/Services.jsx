@@ -13,7 +13,7 @@ const Services = () => {
            <p>From strategy to execution, we craft digital solutions that move </p>
            <p className='flex justify-center'>your business forward.</p>
         </div >
-        <div className='grid grid-cols-2 gap-4'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-4'>
            <ServiceCard logo={ads_icon} tittle="Advertising" description="We turn bold ideas into powerful digital solutions that connect, engage..."/>
            <ServiceCard logo={markting_icon} tittle="Content marketing" description="We turn bold ideas into powerful digital solutions that connect, engage and..."/>
            <ServiceCard logo={content_icon} tittle="Content writing" description="We turn bold ideas into powerful digital solutions that connect, engage..."/>
